@@ -1,0 +1,76 @@
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+}
+body {
+    margin: 0;
+    background-color: #EBDEF0;
+}
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+h1 {
+    background-color: #D7BDE2;
+    text-align: center;
+    border-radius: 10px;
+    height: 60px;
+}
+.contenedorGeneral {
+    text-align: center;
+}
+#calculadora {
+    display:inline-block;
+    background-color: #C39BD3 ;
+    border-radius: 32px;
+    padding: 25px;
+    width: 40%;
+}
+.entradaDeDatos{
+    text-align: center;
+    font-size: 18px;
+}
+input {
+    background-color: #AF7AC5;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+button {
+    text-align: center;
+    display: inline-flex;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background-color:#9B59B6 ;
+    height: 30px;
+}
+.resumen {
+    background-color: #8E44AD;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 25px;
+    color: #E8DAEF;  
+  
+}
+.resumen .contenedorResumen {
+    display:inline-flexbox;
+    font-size: 15px;
+    text-align: center;
+    padding: 26px;
+    height: 10px;
+}
+.contenedorResumen {
+    grid-template-columns: 50px 50px;
+}
+.contenedorResumen h2{
+    font-size:  15px;
+}
